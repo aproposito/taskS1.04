@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 class Triangle extends Shape {
     public function __construct(float $height, float $width)
     {
